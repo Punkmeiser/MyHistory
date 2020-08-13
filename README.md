@@ -1,2 +1,3 @@
 # MyHistory
-About me
+
+About me, for a history project
