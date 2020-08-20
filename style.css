@@ -1,0 +1,17 @@
+:root {
+    --main-bg-color: #fde9e1;
+    --side-bg-color: #b5f8fe;
+    --text-color: #001a23;
+}
+
+.main-bg {
+    background-color: var(--main-bg-color);
+}
+
+.nav-bg {
+    background-color: var(--side-bg-color);
+}
+
+.h-text {
+    color: var(--text-color);
+}
