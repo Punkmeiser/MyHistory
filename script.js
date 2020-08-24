@@ -1,11 +1,8 @@
 function changeText() {
 
-    var innerString = String(document.getElementById("demo").innerHTML);
+    var x = 2;
 
-    if (document.getElementById("demo").innerHTML == innerString) {
-        document.getElementById("demo").innerHTML = "Monster Man ! ! !";
-    }
-    else {
-        document.getElementById("demo").innerHTML = "BLACK";
-    }
+    document.getElementById("demo").innerHTML = typeof x;
+    console.log("WARNING!!! BLACK MAN");
+
 }
