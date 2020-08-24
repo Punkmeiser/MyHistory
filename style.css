@@ -61,5 +61,13 @@ img.nav-logo:hover {
 }
 
 #home {
-    background-image: url("/logos/logo1.png");
+    background-image: url("/pictures/japan\ \(2\).jpg");
+}
+
+#timeline {
+    background-image: url("/pictures/japan\ \(1\).jpg")
+}
+
+p {
+    font-size: 20px;
 }
