@@ -3,22 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punkmeister</title>
+    <link href="http://punkmeister.net" rel="canonical">
 
-    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-    
-    <script src = script.js></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel ="stylesheet" type="text/css" href="style.css">
+    <link rel = "stylesheet" type = "text/css" href = "timeline.css">
 
-    <title>The History Of Duy Nguyen</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:800&display=swap" rel="stylesheet">
+
+    <!-- Favicon Logo -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon-logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-logo/favicon-16x16.png">
+    <link rel="manifest" href="favicon-logo/site.webmanifest">
+    <link rel="mask-icon" href="favicon-logo/safari-pinned-tab.svg" color="#ff6c94">
+    <meta name="msapplication-TileColor" content="#ff6c94">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
 <body>
+  
+    <!-- Navbar Desktop/Tablet -->
+    <nav class="navbar navbar-expand-sm d-none d-md-flex sticky-top">
+        <a class="navbar-brand" href="#about">
+          <img class = "logo" src="logos/logo1.png" alt="Punkmeister Logo" height="60" width="60" style = "border-radius: 50%;">
+        </a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Timeline">Timeline</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+          <a class="navbar-brand" href="https://www.instagram.com/punkmeist/" target="blank">
+            <img class = "nav-logo logo" src="logos/logo-instagram.png" alt="Instagram Logo" height="60" width="60">
+          </a>
+          <a class="navbar-brand" href="https://github.com/PunkmeisterDuy" target="blank">
+            <img class = "nav-logo logo" src="logos/logo-github.png" alt="Youtube Logo" height="60" width="60">
+          </a>
+        </ul>
+    </nav>
+
+    <!-- Navbar Mobile -->
+    <nav class="navbar navbar-light light-blue lighten-4 d-md-none">
+      <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+            class="fas fa-bars fa-1x"></i><img src="logos/logo1.png" alt="Punkmeister Logo" height="60" width="60" style = "border-radius: 50%;"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">    
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Timeline">Timeline</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>  
+      </div>    
+    </nav>
     
-    <h1>Hi</h1>
-    <button type="button" id="demo" onclick="changeText()">Black Man</button>
-    <button onclick="window.print()">Print this page</button>
-
-
+    <div class="container-fluid" id = "home">
+      <h1 class = "center anchor">Duy Nguyen</h1>
+      <p class = "center">Hello, I am Duy/Punkmeister</p>
+      <br>
+      <p class = "center">Hello, I am Duy/Punkmeister</p>
+      <br>
+      <p class = "center">Hello, I am Duy/Punkmeister</p>
+      <br>
+      <p class = "center">Hello, I am Duy/Punkmeister</p>
+      <br>
+      <p class = "center">Hello, I am Duy/Punkmeister</p>
+      <br>
+      <p class = "center">Hello, I am Duy/Punkmeister</p>
+      <br>
+      <p class = "center">Hello, I am Duy/Punkmeister</p>
+      <br>
+      <p class = "center">Hello, I am Duy/Punkmeister</p>
+      <br>
+      <p class = "center">Hello, I am Duy/Punkmeister</p>
+      <br>
+      <p class = "center">Hello, I am Duy/Punkmeister</p>
+      <br>
+      <p class = "center">Hello, I am Duy/Punkmeister</p>
+      <br>
+      <p class = "center">Hello, I am Duy/Punkmeister</p>
+    </div>
+    <div class="timeline">
+        <div class="timeline__bar"></div>
+        <div class="timeline__elem timeline__elem--left">
+          <div class="timeline__date"><span class="timeline__date-day">10</span><span class="timeline__date-month">Jul</span></div>
+          <div class="timeline__event">
+            <div class="timeline__event-date-time">
+              <div class="timeline__event-date"> <span>10/07/2019</span></div>
+              <div class="timeline__event-time"><span>12:30</span></div>
+            </div>
+            <h4 class="timeline__event-title">Event 1</h4>
+            <div class="timeline__event-descr">
+              <p>Event 1 Description</p>
+            </div>
+            <div class="timeline__event-actions"><a class="timeline__event-action" href="#" title="Learn More">Learn More </a><a class="timeline__event-action" href="#" title="Contact Us">Contact Us</a></div>
+          </div>
+        </div>
+        <div class="timeline__elem timeline__elem--right">
+          <div class="timeline__date"><span class="timeline__date-day">18</span><span class="timeline__date-month">Jul</span></div>
+          <div class="timeline__event">
+            <div class="timeline__event-date-time">
+              <div class="timeline__event-date"> <span>18/07/2019</span></div>
+              <div class="timeline__event-time"><span>12:30</span></div>
+            </div>
+            <h4 class="timeline__event-title">Event 2</h4>
+            <div class="timeline__event-descr">
+              <p>Event 2 Description</p>
+            </div>
+            <div class="timeline__event-actions"><a class="timeline__event-action" href="#" title="Learn More">Learn More </a><a class="timeline__event-action" href="#" title="Contact Us">Contact Us</a></div>
+          </div>
+        </div>
+      </div>
+    <div class="container-fluid" id = "contact" >
+      <h1 class = "center anchor">Contact</h1>
+      <p class = "center">This is some text.</p>
+    </div>
 
 </body>
+<footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</footer>
 </html>
