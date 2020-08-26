@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-function changeText() {
-
-    var x = 2;
-
-    document.getElementById("demo").innerHTML = typeof x;
-    console.log("WARNING!!! BLACK MAN");
-
-}
-=======
 //DOM STRINGS OBJECT
 const DOM = {
     timelineDate: document.querySelectorAll('.timeline__date'),
@@ -104,4 +94,3 @@ const DOM = {
     setDateBG();
     
   });
->>>>>>> 3eb106d19ac114771372c6591228f9a1f7a20040
