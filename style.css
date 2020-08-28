@@ -59,6 +59,10 @@ img.nav-logo:hover {
     padding-right: 10px;
 }
 
+.margins {
+    margin-top: 10px;
+}
+
 .line-height {
     line-height: 1.5;
 }
