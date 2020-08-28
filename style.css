@@ -51,6 +51,18 @@ img.nav-logo:hover {
     -webkit-transition: opacity .45s ease-in-out;
 }
 
+.background {
+    background-color: rgba(255, 130, 130, 0.822);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.line-height {
+    line-height: 1.5;
+}
+
 .center {
     text-align:center;
 }
